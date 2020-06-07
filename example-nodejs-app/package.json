@@ -1,0 +1,22 @@
+{
+  "name": "example-nodejs-app",
+  "version": "1.0.0",
+  "description": "Node.js Monitoring with Prometheus and Grafana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prometheus",
+    "node.js",
+    "monitoring",
+    "grafana",
+    "metrics"
+  ],
+  "author": "Kentaro Wakayama",
+  "license": "ISC",
+  "dependencies": {
+    "prom-client": "^12.0.0"
+  }
+}
